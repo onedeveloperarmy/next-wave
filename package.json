@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "next-wave": "node-sass resource/scss/main.scss resource/css/next-wave.css -w"
   },
   "repository": {
     "type": "git",
