@@ -18,5 +18,8 @@
   "homepage": "https://github.com/onedeveloperarmy/next-wave#readme",
   "dependencies": {
     "bootstrap": "^5.0.0-beta1"
+  },
+  "devDependencies": {
+    "node-sass": "^5.0.0"
   }
 }
