@@ -1,0 +1,22 @@
+nav,
+nav.section-navbar,
+.section-navbar{
+    width: 100%;
+    display: block;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: $navbar-height;
+    background-color: $navbar-bg;
+    //box-shadow: 0 2px 4px rgba(0,0,0,0.15);
+}
+
+.app-brand{
+    width: $aside-width;
+    height: $navbar-height;
+    background-color: $navbar-bg;
+    position:sticky;
+    top: 0;
+    //box-shadow: 0 0 2px 1px rgba(0,0,0,0.2);
+}

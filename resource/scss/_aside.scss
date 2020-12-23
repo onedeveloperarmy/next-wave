@@ -1,0 +1,13 @@
+aside.sidebar{
+    width: $aside-width;
+    //height: 100vh - $navbar-height;
+    background-color: #fff;
+    border-right: 1px solid #ddd;
+    position: fixed;
+    top: $navbar-height;
+    left: 0;
+    bottom: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
