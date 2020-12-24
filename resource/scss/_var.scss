@@ -3,4 +3,27 @@ $navbar-height:50px;
 $aside-width:220px;
 
 // fixed colors
-$brand-color: #0099ff;
+$brand-color: #2c84e5;
+$primary: $brand-color;
+$secondary: #f00;
+$success: #0f0;
+$info: #0a0;
+$warning: #aa0;
+$danger: #f00;
+$dark: #333;
+$black: #000;
+$white: #fff;
+$gray: #ddd;
+
+// color schema
+$color-schema: (
+    'primary': $primary,
+    'secondary': $secondary,
+    'success': $success,
+    'info': $info,
+    'warning': $warning,
+    'danger': $danger,
+    'dark': $dark,
+    'black': $black
+)
+
