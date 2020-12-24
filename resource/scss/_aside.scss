@@ -1,4 +1,4 @@
-aside.sidebar{
+aside.section-sidebar{
     width: $aside-width;
     //height: 100vh - $navbar-height;
     background-color: #fff;
@@ -6,7 +6,15 @@ aside.sidebar{
     position: fixed;
     top: $navbar-height;
     left: 0;
-    bottom: 0;
+    @if $is-footer-enabled{
+        @if $is-footer-extended{
+            bottom: $footer-height;
+        } @else {
+            bottom: 0;
+        }
+    } @else {
+        bottom: 0;
+    }
     overflow-x: hidden;
     overflow-y: auto;
 }

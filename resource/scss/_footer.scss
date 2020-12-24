@@ -1,0 +1,11 @@
+@if $is-footer-enabled{
+    .section-footer{
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        left: if($is-footer-enabled && $is-footer-extended, 0, $aside-width);
+        background-color: $brand-color;
+        height: $footer-height;
+        z-index: 97;
+    }
+}

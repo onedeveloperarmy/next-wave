@@ -1,0 +1,5 @@
+// ASIDE FUNCTIONS
+@function getAsideBottom () {
+    @if $is-footer-enabled && $is-footer-extended {@return $footer-height}
+    @else {@return 0}
+}

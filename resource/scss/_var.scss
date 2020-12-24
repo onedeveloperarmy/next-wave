@@ -1,7 +1,3 @@
-$navbar-height:50px;
-
-$aside-width:220px;
-
 // fixed colors
 $brand-color: #2c84e5;
 $primary: $brand-color;
@@ -25,5 +21,15 @@ $color-schema: (
     'danger': $danger,
     'dark': $dark,
     'black': $black
-)
+);
+// NAVBAR
+$navbar-height:50px;
 
+// ASIDE
+$aside-width:220px;
+
+// FOOTER
+$is-footer-enabled: true;
+$is-footer-extended: true;
+$footer-height: 22px;
+$footer-bg: $brand-color;
