@@ -1,17 +1,14 @@
 aside.section-sidebar{
     width: $aside-width;
     //height: 100vh - $navbar-height;
-    background-color: #fff;
+    background-color: $aside-bg;
+    backdrop-filter: $aside-backdrop;
     border-right: 1px solid #ddd;
     position: fixed;
     top: $navbar-height;
     left: 0;
-    @if $is-footer-enabled{
-        @if $is-footer-extended{
-            bottom: $footer-height;
-        } @else {
-            bottom: 0;
-        }
+    @if $is-footer-enabled and $is-footer-extended{
+        bottom: $footer-height;
     } @else {
         bottom: 0;
     }

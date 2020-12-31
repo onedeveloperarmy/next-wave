@@ -1,4 +1,9 @@
-$page-bg: #eee;
+$page-bg: #ddd;
 
 // navbar
-$navbar-bg: $brand-color;
+$navbar-bg: rgba(255,255,255,0.5);
+
+
+// ASIDE
+$aside-bg: rgba(255,255,255,0.7);
+$aside-backdrop: blur(8px);

@@ -11,6 +11,7 @@ nav.section-navbar,
     background-color: $navbar-bg;
     box-shadow: 1px 0px 3px 2px rgba(0,0,0,0.3);
     z-index: 100;
+    backdrop-filter: blur(6px);
 }
 
 .app-brand{

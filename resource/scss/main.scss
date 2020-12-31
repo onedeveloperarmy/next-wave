@@ -37,14 +37,14 @@
 // Next Wave Style Files
 @import 'var';
 @import 'color-schema/default';
-@import 'fonts';
+@import 'utilities/fonts';
 @import 'base';
-@import 'navbar';
-@import 'aside';
-@import 'header';
+@import 'nav/navbar';
+@import 'sidebar/aside';
+@import 'header/header';
 @import 'containers';
-@import 'footer';
-@import 'buttons';
-@import 'buttons-group';
-@import 'buttons-outline';
-@import 'buttons-outline-group';
+@import 'footer/footer';
+@import 'buttons/buttons';
+@import 'buttons/buttons-group';
+@import 'buttons/buttons-outline';
+@import 'buttons/buttons-outline-group';
